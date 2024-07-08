@@ -7,7 +7,9 @@
 }
 
 body {
-    background: linear-gradient(168deg, rgba(134,255,140,1) 0%, rgba(228,172,250,1) 100%);;
+    background: linear-gradient(168deg, rgba(134,255,140,1) 0%, rgba(228,172,250,1) 100%);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
 }
 
 .content {
@@ -52,7 +54,7 @@ main {
 .link-tab {
     display: grid;
     grid-template-columns: 70px 1fr;
-    width: 70%;
+    min-width: 50%;
     background-color: white;
     margin: 0 auto 15px auto;
     border-radius: 15px;
